@@ -1,0 +1,78 @@
+#top-green {
+  background-color: #27588B;
+    border: 1px solid #3ecf8e;
+    color: #fff;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    margin-top: -100px;
+}
+#top-register {
+  background-color: #074e9d;
+    border: 1px solid #27588B;
+}
+.navbar-brand {
+    padding: 15px;
+    padding-bottom: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+#benefits {
+  margin-top: -30px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.icon img {
+  margin-top: 25%;
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+min-width: 370px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#video {
+  padding-bottom: 20px;
+}
+#reviews {
+  padding: 40px 0 10px;
+}
+#reviews .review-text {
+  float: none !important;
+}
+#reviews .review-text p {
+  font-size: 18px;
+  font-style: italic;
+  color: #151948;
+}
+.desc-text a {
+  color: #5e629c;
+  text-decoration: underline;
+}
+#contact {
+  padding: 20px 0;
+}
+.freebirdFormviewerViewFooterEmbeddedDisclaimer.freebirdDisclaimerColor {
+  display: none !important;
+}
+@media only screen and (max-width: 992px) {
+  #top-green {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .custom-navbar .container {
+    text-align: left !important;
+  }
+  .video-container {
+    margin-left: 2px;
+  }
+}
